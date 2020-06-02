@@ -1,5 +1,5 @@
 '''
-rom selenium import webdriver
+from selenium import webdriver
 
 driver = webdriver.Chrome()
 driver.get("https://www.cnblogs.com/jessonluo/p/4717140.html")
