@@ -43,6 +43,6 @@ def test_s3(login):
     print("用例3：登录之后其它动作333")
 
 if __name__ == "__main__":
-    pytest.main("-s","05_fixture_test.py")
+    pytest.main("-v","05_fixture_test.py")
 
 
